@@ -1,0 +1,49 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 3,
+        "KEY_DEWPOINT": 1,
+        "KEY_LOCATION": 4,
+        "KEY_RH": 2,
+        "KEY_COND_ID": 5,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Kyle T. Creasey",
+    "longName": "Kyle's Weather Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "compatibility": "2.7",
+                "file": "fonts/weathericons-regular-webfont.ttf",
+                "name": "FONT_WX_30",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/DejaVuSans.ttf",
+                "name": "FONT_DEJAVU_SANS_12",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/DejaVuSans-Bold.ttf",
+                "name": "FONT_DEJAVU_SANS_BOLD_42",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "KyleWxWatch",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "d4c6f967-5dd0-4367-abc6-0dd10849f645",
+    "versionLabel": "0.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
